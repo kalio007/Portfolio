@@ -1,0 +1,53 @@
+.Footer{
+    justify-content:center ;
+    margin-top: 40px;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.divider{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 2px;
+    background-color: var(--green);
+    margin:auto;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons i:hover{
+    color: var(--green)
+}
+.Footer-main{
+    color: var(--light-text-color);
+}
+.email p,
+.email a{
+    color: var(--green);
+}
+.email{
+    display: flex;
+    transform: translate(190px, 150px) rotate(90deg);
+    right: 0;
+    align-items: center;
+}
+.email::after{
+    content: "";
+    display: block;
+    width:170px;
+    height: 1px;
+    background-color: var(--light-text-color);
+    align-content: center;
+    margin: 0 0 0 20px;
+}
