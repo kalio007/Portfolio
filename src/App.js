@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero';
 import Intro from './Intro/Intro';
 import Footer from './Components/Footer/Footer';
 import Project from './Components/Project/Project';
+import Skills from './Components/Skills/Skills';
 
 
 
@@ -13,9 +14,9 @@ function App() {
     <div>
       <Header/>
       <Intro />
+      <Skills/>
       <Project/>
       <Footer/>
-      
     </div>
   );
 }
